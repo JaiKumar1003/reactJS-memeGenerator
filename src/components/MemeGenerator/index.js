@@ -141,7 +141,7 @@ class MemeGenerator extends Component {
                 )
               })}
             </SelectContainer>
-            <FormGenerateButton type="onSubmit">Generate</FormGenerateButton>
+            <FormGenerateButton type="submit">Generate</FormGenerateButton>
           </FormInputContainer>
         </MemeGeneratorContainer>
       </AppContainer>
