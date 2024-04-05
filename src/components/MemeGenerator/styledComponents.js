@@ -56,10 +56,10 @@ width: 100%;
 `
 
 export const MemeGeneratorText = styled.p`
-color: #ffffff;
-font-family: "Open Sans";
-font-size: ${props => props.fontSize + 'px'};
-font-weight: 700;
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: ${props => props.fontSize}px;
+  font-weight: 700;
 `
 
 export const FormInputContainer = styled.form`
