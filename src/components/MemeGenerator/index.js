@@ -93,9 +93,9 @@ class MemeGenerator extends Component {
     return (
       <AppContainer>
         <MainHeading>Meme Generator</MainHeading>
-        <MemeGeneratorContainer data-testid="meme">
+        <MemeGeneratorContainer>
           {isGenerate && (
-            <MemeGeneratorBg imageUrl={imageUrl}>
+            <MemeGeneratorBg data-testid="meme" imageUrl={imageUrl}>
               <MemeGeneratorText fontSize={fontSize}>
                 {topText}
               </MemeGeneratorText>
